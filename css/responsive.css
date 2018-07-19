@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+flex-pieces {
+  display: flex;
+  flex: 100%;
+}
+
+#map-container {
+  flex-grow: 4;
+}
+
+#header #footer {
+  flex-grow: 1;
+}
